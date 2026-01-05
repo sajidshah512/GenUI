@@ -17,7 +17,7 @@ const Home = () => {
   // ✅ Fixed typos in options
   const options = [
     { value: "html-css", label: "HTML + CSS" },
-    { value: "html-tailwind", label: "REACT JS + Tailwind CSS" },
+    { value: "react.js-tailwind", label: "REACT JS + Tailwind CSS" },
     { value: "html-bootstrap", label: "HTML + Bootstrap" },
     { value: "html-css-js", label: "HTML + CSS + JS" },
     { value: "html-tailwind-bootstrap", label: "HTML + Tailwind + Bootstrap" },
