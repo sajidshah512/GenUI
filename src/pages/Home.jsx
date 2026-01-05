@@ -40,7 +40,7 @@ const Home = () => {
 
   // ⚠️ API Key
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyBQPNlENs2twQGZmImXbNpq6t0NBY__0ao",
+    apiKey: "AIzaSyC8RC0fY46WmISQYEpTmF6ZdytrPOvL3Bw",
   });
 
   // ✅ Generate code
