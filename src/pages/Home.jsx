@@ -17,7 +17,7 @@ const Home = () => {
   // ✅ Fixed typos in options
   const options = [
     { value: "html-css", label: "HTML + CSS" },
-    { value: "react.js-tailwind", label: "REACT JS + Tailwind CSS" },
+    { value: "react-tailwind", label: "REACT JS + Tailwind CSS" },
     { value: "html-bootstrap", label: "HTML + Bootstrap" },
     { value: "html-css-js", label: "HTML + CSS + JS" },
     { value: "html-tailwind-bootstrap", label: "HTML + Tailwind + Bootstrap" },
@@ -40,7 +40,7 @@ const Home = () => {
 
   // ⚠️ API Key
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyCOlDTbPRNj-ldHMRBrLt20U8SrWFfC1hs",
+    apiKey: "AIzaSyBQPNlENs2twQGZmImXbNpq6t0NBY__0ao",
   });
 
   // ✅ Generate code
