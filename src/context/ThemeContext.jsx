@@ -7,10 +7,7 @@ export const ThemeProvider = ({ children }) => {
     const saved = localStorage.getItem("theme");
     if (saved) return saved;
 
-    // 👇 System theme detection
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    return "dark";
   };
 
   const [theme, setTheme] = useState(getInitialTheme);

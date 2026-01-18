@@ -40,7 +40,7 @@ const Home = () => {
 
   // ⚠️ API Key
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyC8RC0fY46WmISQYEpTmF6ZdytrPOvL3Bw",
+    apiKey: import.meta.env.VITE_GOOGLE_API_KEY,
   });
 
   // ✅ Generate code
@@ -150,8 +150,8 @@ Requirements:
                 backgroundColor: state.isSelected
                   ? "#333"
                   : state.isFocused
-                  ? "#222"
-                  : "#111",
+                    ? "#222"
+                    : "#111",
                 color: "#fff",
               }),
               singleValue: (base) => ({ ...base, color: "#fff" }),
